@@ -1,0 +1,133 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.cabecera{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(200deg, rgba(55, 0, 0, 0.89) , rgba(255, 0, 0, 0.132));
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen{
+    width: 200px;
+    height: 200px;
+}
+
+.cuerpo{
+    height: 30vw;
+    width: 100%;
+    text-align: center;
+}
+
+.cuerpo > .parrafo{
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    font-size: 35px;
+    animation-name: example;
+    color: whitesmoke;
+    background-image: linear-gradient(120deg, rgba(55, 0, 0, 0.89) , rgba(255, 0, 0, 0.132));
+    animation-duration: 4s;
+}
+.cuerpo > div > a{
+    background-color: rgba(255, 0, 0, 0.132);
+    height: 25px;
+    width: 25px;
+    padding: 15px;
+    font-size: 25px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 50px;
+    color: black;
+}
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+.contenedor{
+    width: 100%;
+    height: 340px;
+    text-align: center;
+}
+.boton > img{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.pie{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(200deg, rgba(55, 0, 0, 0.89) , rgba(255, 0, 0, 0.132));
+}
+/*......................................*/
+/*......................................*/
+@media only screen and (max-width: 600px) {
+    .imagen  {width: 25px; height: 25px;}
+  }
+  @media only screen and (min-width: 600px) {
+    .imagen {width: 50px; height: 50px;}
+  } 
+  @media only screen and (min-width: 768px) {
+    .imagen {width: 75px; height: 75px;}
+  }  
+  @media only screen and (min-width: 992px) {
+    .imagen {width: 100px; height: 100px;}
+  } 
+  @media only screen and (min-width: 1200px) {
+    .imagen {width: 200px; height: 200px;}
+  }
+  /*.....................................*/
+  @media only screen and (max-width: 600px) {
+    .cabecera  {width: 100%; height: 25px;}
+  }
+  @media only screen and (min-width: 600px) {
+    .cabecera {width: 100%; height: 50px;}
+  }  
+  @media only screen and (min-width: 768px) {
+    .cabecera {width: 100%; height: 75px;}
+  }  
+  @media only screen and (min-width: 992px) {
+    .cabecera {width: 100%; height: 100px;}
+  } 
+  @media only screen and (min-width: 1200px) {
+    .cabecera {width: 100%; height: 200px;}
+  }
+  /*........................................*/
+  @media only screen and (max-width: 600px) {
+    .cuerpo  {width: 100%; height: 100px;}
+  }
+  @media only screen and (min-width: 600px) {
+    .cuerpo {width: 100%; height: 150px;}
+  }  
+  @media only screen and (min-width: 768px) {
+    .cuerpo {width: 100%; height: 150px;}
+  }  
+  @media only screen and (min-width: 992px) {
+    .cuerpo {width: 100%; height: 100px;}
+  } 
+  @media only screen and (min-width: 1200px) {
+    .cuerpo {width: 100%; height: 100px;}
+  }
+  /*........................................*/
+  @media only screen and (max-width: 600px) {
+    .parrafo >p {font-size: 17px;}
+  }
+  @media only screen and (min-width: 600px) {
+    .parrafo >p{font-size: 25px;}
+  }  
+  @media only screen and (min-width: 768px) {
+    .parrafo >p{font-size: 30px;}
+  }
+  @media only screen and (min-width: 992px) {
+    .parrafo >p{font-size: 35px;}
+  }
+  @media only screen and (min-width: 1200px) {
+    .parrafo >p{font-size: 35px;}
+  }
+  
+
+  
